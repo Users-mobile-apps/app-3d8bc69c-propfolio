@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "PropFolio",
+    "slug": "propfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.appos.propfolio",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.appos.propfolio",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af58268c-e0bb-4923-b5a2-0cf90dbeece0"
+      }
+    }
+  }
+}

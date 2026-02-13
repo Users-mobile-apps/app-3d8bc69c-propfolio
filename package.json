@@ -1,0 +1,29 @@
+{
+  "name": "propfolio",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "expo-router": "*",
+    "expo-status-bar": "*",
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-svg": "*",
+    "@expo/vector-icons": "*",
+    "@react-native-async-storage/async-storage": "*",
+    "expo-haptics": "*",
+    "expo-notifications": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-pager-view": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
